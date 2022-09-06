@@ -39,8 +39,16 @@ button {
     background: #0c0757;
 }
 
+#increment-btn:hover {
+    background: #080436;
+}
+
 #save-btn {
     background: #023d02;
+}
+
+#save-btn:hover {
+    background: #012c01;
 }
 
 .wrap {
