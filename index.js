@@ -9,7 +9,7 @@ function increment() {
 
 function save() {
     let countStr = ' - ' + count;
-    saveEl.textContent += saveEl.textContent != '' ? count : countStr;;
+    saveEl.textContent += saveEl.textContent == '' ? count : countStr;
     countEl.textContent = 0;
     count = 0;
 }
